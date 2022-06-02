@@ -14,6 +14,7 @@ import CssBaseline from "@mui/material/CssBaseline"
 import { CacheProvider, EmotionCache } from "@emotion/react"
 import theme from "app/core/styles/theme"
 import createEmotionCache from "app/core/utils/createEmotionCache"
+import "app/core/styles/index.css"
 interface MyAppProps extends AppProps {
   emotionCache?: EmotionCache
 }
